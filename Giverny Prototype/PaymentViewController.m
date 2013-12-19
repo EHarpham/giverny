@@ -8,7 +8,6 @@
 
 #import "PaymentViewController.h"
 #import "Stripe.h"
-#import "AFNetworking.h"
 #import <AFNetworking/AFNetworking.h>
 
 
@@ -22,7 +21,7 @@
 
 @implementation PaymentViewController
 
-@synthesize stripeCard;
+@synthesize stripeCard, httpOperation;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -52,9 +51,10 @@
     self.stripeCard.name = self.firstNameTextField.text;
     self.stripeCard.number = self.cardNumberTextField.text;
     self.stripeCard.cvc = self.cvcTextField.text;
-    self.stripeCard.expMonth = [self.expDateMonthTextField integerValue];
-    self.stripeCard.expYear = [self.expDateYearTextField integerValue];
-    
+    //self.stripeCard.expMonth = [self.expDateMonthTextField integerValue];
+    //self.stripeCard.expYear = [self.expDateYearTextField integerValue];
+    self.stripeCard.expMonth = 11;
+    self.stripeCard.expYear = 2013;
     //2
     if ([self validateCustomerInfo]) {
         [self performStripeOperation];
@@ -126,7 +126,7 @@
     [httpClient setDefaultHeader:@"Accept" value:@"text/json"];
     
     //2
-    RWCheckoutCart* checkoutCart = [RWCheckoutCart sharedInstance];
+   // RWCheckoutCart* checkoutCart = [RWCheckoutCart sharedInstance];
     //NSInteger totalCents = [[checkoutCart total] doubleValue] * 100;
     NSInteger totalCents = 999;
 
@@ -134,9 +134,11 @@
     //3
     NSMutableDictionary* postRequestDictionary = [[NSMutableDictionary alloc] init];
     postRequestDictionary[@"stripeAmount"] = [NSString stringWithFormat:@"%d", totalCents];
-    postRequestDictionary[@"stripeCurrency"] = @"gbp";
+    postRequestDictionary[@"stripeCurrency"] = @"usd";
     postRequestDictionary[@"stripeToken"] = token;
     postRequestDictionary[@"stripeDescription"] = @"Test purchase for Giverny";
+    
+    NSLog(@"%@",postRequestDictionary);
     
     //4
     NSMutableURLRequest* request = [httpClient requestWithMethod:@"POST" path:nil parameters:postRequestDictionary];
@@ -175,5 +177,34 @@
     }
     
     self.completeButton.enabled = YES;
+}
+
+- (void)chargeDidSucceed {
+    //1
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success"
+                                                    message:@"Please enjoy your new pup."
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+    
+   // RWCheckoutCart* checkoutCart = [RWCheckoutCart sharedInstance];
+    //[checkoutCart clearCart];
+    
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (void)chargeDidNotSuceed {
+    //2
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Payment not successful"
+                                                    message:@"Please try again later."
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];// this will do the trick
 }
 @end

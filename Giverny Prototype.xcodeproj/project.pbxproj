@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E33573DB8054C4CB98E8E6C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A3DEAA05D141DDB17900A4 /* libPods.a */; };
 		F2151B1F1842849600C4A287 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B1E1842849600C4A287 /* ProductCell.m */; };
 		F2151B221842850400C4A287 /* ProductPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B211842850400C4A287 /* ProductPopViewController.m */; };
 		F2151B28184285D700C4A287 /* logo_square_notext.png in Resources */ = {isa = PBXBuildFile; fileRef = F2151B25184285D700C4A287 /* logo_square_notext.png */; };
@@ -23,21 +24,7 @@
 		F2151B3C1842973200C4A287 /* large_map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2151B3B1842973100C4A287 /* large_map_icon.png */; };
 		F2151B3E1842973B00C4A287 /* info_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2151B3D1842973B00C4A287 /* info_icon.png */; };
 		F2151B4018435BAA00C4A287 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2151B3F18435BAA00C4A287 /* QuartzCore.framework */; };
-		F2151B4F18435BE300C4A287 /* STPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B4318435BE300C4A287 /* STPCard.m */; };
-		F2151B5018435BE300C4A287 /* STPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B4518435BE300C4A287 /* STPToken.m */; };
-		F2151B5118435BE300C4A287 /* STPView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B4718435BE300C4A287 /* STPView.m */; };
-		F2151B5218435BE300C4A287 /* Stripe.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B4A18435BE300C4A287 /* Stripe.m */; };
-		F2151B5318435BE300C4A287 /* StripeError.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B4C18435BE300C4A287 /* StripeError.m */; };
 		F2151B5618435F1700C4A287 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B5518435F1700C4A287 /* PaymentViewController.m */; };
-		F2151B6B18438B7500C4A287 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B5918438B7500C4A287 /* AFHTTPRequestOperation.m */; };
-		F2151B6C18438B7500C4A287 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B5B18438B7500C4A287 /* AFHTTPRequestOperationManager.m */; };
-		F2151B6D18438B7500C4A287 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B5D18438B7500C4A287 /* AFHTTPSessionManager.m */; };
-		F2151B6E18438B7500C4A287 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B6018438B7500C4A287 /* AFNetworkReachabilityManager.m */; };
-		F2151B6F18438B7500C4A287 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B6218438B7500C4A287 /* AFSecurityPolicy.m */; };
-		F2151B7018438B7500C4A287 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B6418438B7500C4A287 /* AFURLConnectionOperation.m */; };
-		F2151B7118438B7500C4A287 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B6618438B7500C4A287 /* AFURLRequestSerialization.m */; };
-		F2151B7218438B7500C4A287 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B6818438B7500C4A287 /* AFURLResponseSerialization.m */; };
-		F2151B7318438B7500C4A287 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2151B6A18438B7500C4A287 /* AFURLSessionManager.m */; };
 		F29DFC941842660E00FF0137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DFC931842660E00FF0137 /* Foundation.framework */; };
 		F29DFC961842660E00FF0137 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DFC951842660E00FF0137 /* CoreGraphics.framework */; };
 		F29DFC981842660E00FF0137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DFC971842660E00FF0137 /* UIKit.framework */; };
@@ -73,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1806EC7CCC0A472285AE5049 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		79A3DEAA05D141DDB17900A4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2151B1D1842849600C4A287 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
 		F2151B1E1842849600C4A287 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
 		F2151B201842850400C4A287 /* ProductPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductPopViewController.h; sourceTree = "<group>"; };
@@ -91,38 +80,8 @@
 		F2151B3B1842973100C4A287 /* large_map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_map_icon.png; sourceTree = "<group>"; };
 		F2151B3D1842973B00C4A287 /* info_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_icon.png; sourceTree = "<group>"; };
 		F2151B3F18435BAA00C4A287 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F2151B4218435BE300C4A287 /* STPCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCard.h; sourceTree = "<group>"; };
-		F2151B4318435BE300C4A287 /* STPCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCard.m; sourceTree = "<group>"; };
-		F2151B4418435BE300C4A287 /* STPToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPToken.h; sourceTree = "<group>"; };
-		F2151B4518435BE300C4A287 /* STPToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPToken.m; sourceTree = "<group>"; };
-		F2151B4618435BE300C4A287 /* STPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPView.h; sourceTree = "<group>"; };
-		F2151B4718435BE300C4A287 /* STPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPView.m; sourceTree = "<group>"; };
-		F2151B4818435BE300C4A287 /* Stripe-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Stripe-Prefix.pch"; sourceTree = "<group>"; };
-		F2151B4918435BE300C4A287 /* Stripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stripe.h; sourceTree = "<group>"; };
-		F2151B4A18435BE300C4A287 /* Stripe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stripe.m; sourceTree = "<group>"; };
-		F2151B4B18435BE300C4A287 /* StripeError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripeError.h; sourceTree = "<group>"; };
-		F2151B4C18435BE300C4A287 /* StripeError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripeError.m; sourceTree = "<group>"; };
 		F2151B5418435F1700C4A287 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
 		F2151B5518435F1700C4A287 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
-		F2151B5818438B7500C4A287 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		F2151B5918438B7500C4A287 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		F2151B5A18438B7500C4A287 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		F2151B5B18438B7500C4A287 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		F2151B5C18438B7500C4A287 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		F2151B5D18438B7500C4A287 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		F2151B5E18438B7500C4A287 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		F2151B5F18438B7500C4A287 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		F2151B6018438B7500C4A287 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		F2151B6118438B7500C4A287 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		F2151B6218438B7500C4A287 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		F2151B6318438B7500C4A287 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		F2151B6418438B7500C4A287 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		F2151B6518438B7500C4A287 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		F2151B6618438B7500C4A287 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		F2151B6718438B7500C4A287 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		F2151B6818438B7500C4A287 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		F2151B6918438B7500C4A287 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		F2151B6A18438B7500C4A287 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		F29DFC901842660E00FF0137 /* Giverny Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Giverny Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29DFC931842660E00FF0137 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F29DFC951842660E00FF0137 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -168,6 +127,7 @@
 				F29DFC9A1842660E00FF0137 /* CoreData.framework in Frameworks */,
 				F29DFC981842660E00FF0137 /* UIKit.framework in Frameworks */,
 				F29DFC941842660E00FF0137 /* Foundation.framework in Frameworks */,
+				3E33573DB8054C4CB98E8E6C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,66 +163,6 @@
 			name = "demo images";
 			sourceTree = "<group>";
 		};
-		F2151B4118435BE300C4A287 /* Stripe */ = {
-			isa = PBXGroup;
-			children = (
-				F2151B4218435BE300C4A287 /* STPCard.h */,
-				F2151B4318435BE300C4A287 /* STPCard.m */,
-				F2151B4418435BE300C4A287 /* STPToken.h */,
-				F2151B4518435BE300C4A287 /* STPToken.m */,
-				F2151B4618435BE300C4A287 /* STPView.h */,
-				F2151B4718435BE300C4A287 /* STPView.m */,
-				F2151B4818435BE300C4A287 /* Stripe-Prefix.pch */,
-				F2151B4918435BE300C4A287 /* Stripe.h */,
-				F2151B4A18435BE300C4A287 /* Stripe.m */,
-				F2151B4B18435BE300C4A287 /* StripeError.h */,
-				F2151B4C18435BE300C4A287 /* StripeError.m */,
-				F2151B4D18435BE300C4A287 /* Vendor */,
-			);
-			path = Stripe;
-			sourceTree = "<group>";
-		};
-		F2151B4D18435BE300C4A287 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				F2151B4E18435BE300C4A287 /* PaymentKit */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		F2151B4E18435BE300C4A287 /* PaymentKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PaymentKit;
-			sourceTree = "<group>";
-		};
-		F2151B5718438B7500C4A287 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				F2151B5818438B7500C4A287 /* AFHTTPRequestOperation.h */,
-				F2151B5918438B7500C4A287 /* AFHTTPRequestOperation.m */,
-				F2151B5A18438B7500C4A287 /* AFHTTPRequestOperationManager.h */,
-				F2151B5B18438B7500C4A287 /* AFHTTPRequestOperationManager.m */,
-				F2151B5C18438B7500C4A287 /* AFHTTPSessionManager.h */,
-				F2151B5D18438B7500C4A287 /* AFHTTPSessionManager.m */,
-				F2151B5E18438B7500C4A287 /* AFNetworking.h */,
-				F2151B5F18438B7500C4A287 /* AFNetworkReachabilityManager.h */,
-				F2151B6018438B7500C4A287 /* AFNetworkReachabilityManager.m */,
-				F2151B6118438B7500C4A287 /* AFSecurityPolicy.h */,
-				F2151B6218438B7500C4A287 /* AFSecurityPolicy.m */,
-				F2151B6318438B7500C4A287 /* AFURLConnectionOperation.h */,
-				F2151B6418438B7500C4A287 /* AFURLConnectionOperation.m */,
-				F2151B6518438B7500C4A287 /* AFURLRequestSerialization.h */,
-				F2151B6618438B7500C4A287 /* AFURLRequestSerialization.m */,
-				F2151B6718438B7500C4A287 /* AFURLResponseSerialization.h */,
-				F2151B6818438B7500C4A287 /* AFURLResponseSerialization.m */,
-				F2151B6918438B7500C4A287 /* AFURLSessionManager.h */,
-				F2151B6A18438B7500C4A287 /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
 		F29DFC871842660E00FF0137 = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +170,7 @@
 				F29DFCB81842660E00FF0137 /* Giverny PrototypeTests */,
 				F29DFC921842660E00FF0137 /* Frameworks */,
 				F29DFC911842660E00FF0137 /* Products */,
+				1806EC7CCC0A472285AE5049 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,8 +186,6 @@
 		F29DFC921842660E00FF0137 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F2151B5718438B7500C4A287 /* AFNetworking */,
-				F2151B4118435BE300C4A287 /* Stripe */,
 				F2151B3F18435BAA00C4A287 /* QuartzCore.framework */,
 				F2151B371842941E00C4A287 /* CoreLocation.framework */,
 				F2151B35184287BC00C4A287 /* MapKit.framework */,
@@ -295,6 +194,7 @@
 				F29DFC971842660E00FF0137 /* UIKit.framework */,
 				F29DFC991842660E00FF0137 /* CoreData.framework */,
 				F29DFCB11842660E00FF0137 /* XCTest.framework */,
+				79A3DEAA05D141DDB17900A4 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -383,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F29DFCC21842660E00FF0137 /* Build configuration list for PBXNativeTarget "Giverny Prototype" */;
 			buildPhases = (
+				D614CF6ED2B244FAA3665F15 /* Check Pods Manifest.lock */,
 				F29DFC8C1842660E00FF0137 /* Sources */,
 				F29DFC8D1842660E00FF0137 /* Frameworks */,
 				F29DFC8E1842660E00FF0137 /* Resources */,
+				05CC8390DF7849808B9067AC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -478,36 +380,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05CC8390DF7849808B9067AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D614CF6ED2B244FAA3665F15 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F29DFC8C1842660E00FF0137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2151B6B18438B7500C4A287 /* AFHTTPRequestOperation.m in Sources */,
 				F29DFCCD184266BB00FF0137 /* ShopFrontViewController.m in Sources */,
-				F2151B5218435BE300C4A287 /* Stripe.m in Sources */,
 				F29DFCA61842660E00FF0137 /* AppDelegate.m in Sources */,
 				F2151B221842850400C4A287 /* ProductPopViewController.m in Sources */,
 				F29DFCCA1842667500FF0137 /* Products.m in Sources */,
 				F29DFCD818426A5800FF0137 /* MapViewController.m in Sources */,
-				F2151B6D18438B7500C4A287 /* AFHTTPSessionManager.m in Sources */,
-				F2151B5018435BE300C4A287 /* STPToken.m in Sources */,
 				F29DFCA91842660E00FF0137 /* Giverny_Prototype.xcdatamodeld in Sources */,
-				F2151B6E18438B7500C4A287 /* AFNetworkReachabilityManager.m in Sources */,
-				F2151B7318438B7500C4A287 /* AFURLSessionManager.m in Sources */,
 				F2151B5618435F1700C4A287 /* PaymentViewController.m in Sources */,
 				F2151B1F1842849600C4A287 /* ProductCell.m in Sources */,
-				F2151B7018438B7500C4A287 /* AFURLConnectionOperation.m in Sources */,
-				F2151B7218438B7500C4A287 /* AFURLResponseSerialization.m in Sources */,
-				F2151B5318435BE300C4A287 /* StripeError.m in Sources */,
-				F2151B7118438B7500C4A287 /* AFURLRequestSerialization.m in Sources */,
 				F29DFCD518426A4400FF0137 /* LoginViewController.m in Sources */,
 				F29DFCA21842660E00FF0137 /* main.m in Sources */,
-				F2151B5118435BE300C4A287 /* STPView.m in Sources */,
-				F2151B4F18435BE300C4A287 /* STPCard.m in Sources */,
 				F29DFCDB18426A6900FF0137 /* CartViewController.m in Sources */,
-				F2151B6C18438B7500C4A287 /* AFHTTPRequestOperationManager.m in Sources */,
-				F2151B6F18438B7500C4A287 /* AFSecurityPolicy.m in Sources */,
 				F29DFCD218426A3100FF0137 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +506,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C9B8390A-29CF-46C9-8EAA-865B54DDEFFE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -618,6 +540,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "C9B8390A-29CF-46C9-8EAA-865B54DDEFFE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -626,6 +549,7 @@
 		};
 		F29DFCC31842660E00FF0137 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1806EC7CCC0A472285AE5049 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -639,6 +563,7 @@
 		};
 		F29DFCC41842660E00FF0137 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1806EC7CCC0A472285AE5049 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

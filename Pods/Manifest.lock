@@ -1,0 +1,20 @@
+PODS:
+  - AFNetworking (0.9.1)
+  - PaymentKit (1.0.2)
+  - Stripe (1.0.2):
+    - PaymentKit
+
+DEPENDENCIES:
+  - AFNetworking (= 0.9.1)
+  - Stripe (from `https://github.com/stripe/stripe-ios.git`)
+
+EXTERNAL SOURCES:
+  Stripe:
+    :git: https://github.com/stripe/stripe-ios.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 081ec3c1f4768c87ae79d69a96fcc9479e232e81
+  PaymentKit: be75a5398a9465edd84f7249a9e57d707da025fb
+  Stripe: d939af1f258e8b69482205eafa44e0f27f3e74d6
+
+COCOAPODS: 0.28.0

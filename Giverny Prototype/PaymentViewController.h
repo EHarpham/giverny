@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Stripe.h"
+#import <AFNetworking/AFNetworking.h>
 
 
 @interface PaymentViewController : UIViewController
@@ -27,6 +28,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *expDateYearTextField;
 @property (weak, nonatomic) IBOutlet UITextField *expDateMonthTextField;
 @property (weak, nonatomic) IBOutlet UIButton *completeButton;
+
+
+@property (strong, nonatomic) AFJSONRequestOperation* httpOperation;
+
 
 - (IBAction)completeButton:(id)sender;
 
